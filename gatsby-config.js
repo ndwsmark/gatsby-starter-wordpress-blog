@@ -6,6 +6,14 @@
  *
  */
 
+{
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+        trackingId: `<trackingId>`,
+        head: true
+    }
+}
+
 module.exports = {
   /**
    * Adding plugins to this array adds them to your Gatsby site.
